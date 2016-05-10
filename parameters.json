@@ -1,0 +1,41 @@
+[
+
+  {
+    "ParameterKey": "DomainZone",
+    "ParameterValue": "<Route 53 Zone>"
+  },
+  {
+    "ParameterKey":"Environment",
+    "ParameterValue":"<Production, Staging, testing>"
+  },
+  {
+    "ParameterKey":"KeyName",
+    "ParameterValue":"< My already created key>"
+  },
+  {
+    "ParameterKey":"OAuthEnabled",
+    "ParameterValue":"<false or true>"
+  },
+  {
+    "ParameterKey":"Owner",
+    "ParameterValue":"<tag for control>"
+  },
+  {
+    "ParameterKey":"Project",
+    "ParameterValue":"<tag for control>"
+  },
+  {
+    "ParameterKey":"SecurityGroups",
+    "ParameterValue":"<comma separated value of security groups>"
+  },
+  {
+    "ParameterKey":"SlaveInstanceCount",
+    "ParameterValue":"<number of instace>"
+  },
+  {
+    "ParameterKey":"SubnetID",
+    "ParameterValue":
+    "subnet-yyyyyyyyy,subnet-xxxxxxx"
+
+  }
+]
